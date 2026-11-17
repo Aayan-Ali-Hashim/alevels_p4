@@ -1,0 +1,4 @@
+# Write a Python program to create a list of numbers (10 numbers) and output the even numbers. 
+
+
+
