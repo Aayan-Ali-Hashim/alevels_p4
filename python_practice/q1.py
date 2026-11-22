@@ -1,3 +1,12 @@
-for number in range(2000,3201):
-    if number % 7 == 0 and number % 5 != 0 :
-        print(number, end=",")
+print("enter two numbers")
+num1 = int(input("enter first number"))
+num2 = int(input("enter second number"))
+sum = num1 + num2 
+print(sum)
+difference = num1 - num2 
+print(difference)
+product = num1 * num2 
+print(product)
+division = num1 / num2
+print(division)
+
