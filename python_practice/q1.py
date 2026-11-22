@@ -1,5 +1,3 @@
-# Write a Python program to create a list of numbers (10 numbers) and output the even numbers. 
-numbers = [1,2,3,4,5,6,7,8,9,10]
-for number in numbers:
-    if number % 2 == 0:
-        print(number)
+for number in range(2000,3201):
+    if number % 7 == 0 and number % 5 != 0 :
+        print(number, end=",")
